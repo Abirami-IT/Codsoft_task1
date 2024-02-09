@@ -1,0 +1,19 @@
+num1=int(input('Enter the first number:'))
+num2=int(input('Enter the second number:'))
+print('Enter an operation(+ - / *):')
+operator=input()
+if operator == '+':
+   Output = num1 + num2
+elif operator == '-':
+   Output=num1-num2
+elif operator == '*':
+   Output = num1*num2
+elif operator == '/':
+   Output= num1/num2
+else:
+
+  print("Invalid operator")
+       
+if Output.is_integer():
+         Output=int(Output)
+print("Result:",Output)
